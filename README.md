@@ -1,7 +1,3 @@
-1. 깃허브 이슈 페이지 개발 
-2. TDD 시도 
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<hr>
+
+## Target 
+1. 리액트 프레임워크를 통한 깃허브 이슈 페이지 개발 
+2. TDD 
+3. 리팩터링 원칙 준수 
