@@ -12,6 +12,7 @@
 }
 
 .header {
+  display: flex;
   padding: 16px 32px;
   background: rgb(246, 248, 250);
   height: 96px;

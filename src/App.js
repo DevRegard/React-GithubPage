@@ -1,6 +1,6 @@
 import styles from "./App.module.css"
 
-function App() {
+const App = () => {
   return (
     <>
       <div className={styles.nav}>Nav</div>
