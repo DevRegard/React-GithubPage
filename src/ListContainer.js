@@ -11,7 +11,7 @@ import { useState, useEffect } from "react"
 
 // import { GITHUB_API } from "./GITHUB_API"
 
-export default function ListContainer() {
+const ListContainer = () => {
   const [inputValue, setInputValue] = useState("is:pr is:open")
   // const [checked, setChecked] = useState(false)
   // const [list, setList] = useState([])
@@ -108,3 +108,5 @@ export default function ListContainer() {
     </>
   )
 }
+
+export default ListContainer
