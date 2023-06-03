@@ -2,14 +2,14 @@ import { useState, useEffect } from "react"
 import styles from "./Modal.module.css"
 import cx from "clsx"
 
-export default function Modal({
+const Modal = ({
   opened,
   title,
   onClose,
   placeholder,
   searchDataList,
   onClickCell,
-}) {
+}) => {
   const [searchValue, setSearchValue] = useState("")
   const [filteredData, setFilteredData] = useState(searchDataList)
 
@@ -60,3 +60,5 @@ export default function Modal({
     </div>
   )
 }
+
+export default Modal
