@@ -1,7 +1,7 @@
 import styles from "./Header.module.css"
 import Button from "./components/Button"
 import Space from "./components/Space"
-// import Tabs from "./components/Tabs"
+import Tabs from "./components/Tabs"
 
 const Header = () => {
   return (
@@ -37,7 +37,7 @@ const Header = () => {
           Star
         </Button>
       </div>
-      {/* <Tabs /> */}
+      <Tabs />
     </div>
   )
 }
