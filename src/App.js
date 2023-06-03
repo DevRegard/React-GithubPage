@@ -1,7 +1,7 @@
 import styles from "./App.module.css"
 import Header from "./Header"
 import ListContainer from "./ListContainer"
-// import Footer from "./Footer"
+import Footer from "./Footer"
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <div className={styles.nav}>Nav</div>
       <Header />
       <ListContainer />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
