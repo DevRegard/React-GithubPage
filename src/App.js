@@ -1,12 +1,15 @@
 import styles from "./App.module.css"
+import Header from "./Header"
+// import ListContainer from "./ListContainer"
+// import Footer from "./Footer"
 
 const App = () => {
   return (
     <>
       <div className={styles.nav}>Nav</div>
-      <div className={styles.header}>header</div>
-      <div className={styles.listContainer}>List</div>
-      <div className={styles.footer}>footer</div>
+      <Header />
+      {/* <ListContainer /> */}
+      {/* <Footer /> */}
     </>
   )
 }
